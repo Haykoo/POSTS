@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body style="background-color: DarkSlateGrey">
-	<div class="container">   
-		<a href="index.php">
-			<button type="button" id="add" class="btn btn-primary" style="float: right;margin-right: 100px;margin-top: 50px">Add your post</button>
-	  	</a>
-	</div>
-</body>
-</html>
-
-
-
 <?php
+  include "home.html";
   include "function.php";
   $query3="SELECT ID,Title,Textarea,Image FROM news";
   $result=query($query3);
