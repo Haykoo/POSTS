@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+	background-color: DarkSlateGrey;
+	font-family:verdana;
+	position: relative;
+	color: white;
+}
+#title{
+	padding: 12px 20px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	font-size: 16px;
+	color: DarkSlateGrey;
+	border-radius: 15px;
+}
+#textarea{
+	font-size: 16px;
+	color: DarkSlateGrey;
+	border-radius: 15px;
+}
+#image{
+	border: none;
+	background-color: transparent;
+	color: white;
+	border:1px solid white;
+	padding: 12px 25px;
+	border-radius: 20px;
+	font-size: 16px;
+}
+#add{
+	margin-top:10px;
+	border: none;
+	background-color: transparent;
+	color: white;
+	border:1px solid white;
+	padding: 12px 25px;
+	border-radius: 20px;
+	font-size: 16px;
+}
+#add:hover{
+	background-color: white;
+	color: DarkSlateGrey;
+	border: 3px solid DarkSlateGrey;
+}
